@@ -1,0 +1,37 @@
+﻿<!--
+    as_q -> search
+    as_epq -> exact phrase
+    as_oq -> any of
+    as_eq -> none of
+
+    https://www.images.google.com/images
+-->
+
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <title>Google Search</title>
+        <link rel="stylesheet" href="style.css">
+        
+    </head>
+    <body>
+		<div id="links">
+            <a class="nav" href="image.html">Images</a>
+            <a class="nav" href="advanced.html">Advanced</a>
+        </div>
+        <div id="logo">
+            <img src="images/logo.png" alt="Google" width="350">
+        </div>
+        <form id="search-form" action="https://www.google.com/search">
+            <input type="text" name="q">
+            <div id="buttons">
+                <input type="submit" value="Google Search">
+                <input type="submit" name="btnI" value="I'm Feeling Lucky">
+            </div>
+        </form>
+    </body>
+</html>
+<!---
+https://www.google.com/search?q=haevard&btnI=I%27m+Feeling+Lucky
+https://www.google.com/search?q=young+hot+turtles+in+my+area&btnI=I%27m+Feeling+Lucky
+-->
